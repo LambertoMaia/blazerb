@@ -1,4 +1,4 @@
 require_relative "modules/read"
 
-worker = Read.new
+worker = Blaze.new
 worker.run_bot
